@@ -32,6 +32,8 @@ def letter_to_guardians(mydict3,team):
   above, the string is split into a list of  name and surname
   using the contents of the list to create the firstname and surname file name"""
   
+  first_name_and_surname = mydict3['Name'].split(" ")
+  
   with open("{}_{}.txt".format(first_name_and_surname[0].lower(),
                                first_name_and_surname[1].lower()),
                                 'a')as csvfile:
