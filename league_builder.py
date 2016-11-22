@@ -20,7 +20,7 @@ def sort_player_with_team(mydict,mylist):
 def create_team_sheet(mylist2,team):
   """takes a list and string as an argument. Loops around the list 
   and prints out each dict prefixed with the team"""
-  with open("text.csv",'a')as csvfile:
+  with open("teams.csv",'a')as csvfile:
     csvfile.write(""+"\n")
     csvfile.write(team+"\n")
     for mydict in mylist2:
