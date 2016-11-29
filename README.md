@@ -25,12 +25,14 @@ if __name__=="__main__":
   create_team_sheet(Raptors,"Raptors")   
   create_team_sheet(Dragons,"Dragons") 
   create_team_sheet(Sharks,"Sharks") 
+  
 
+  # To run the file, execute the script league_builder.py and pass in the filename i.e 
+  # python league_builder.py soccer_players.csv
 
   ```
 
-# To run the file, execute the script league_builder.py and pass in the filename i.e 
-# python league_builder.py soccer_players.csv
+
 
 
 
