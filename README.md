@@ -29,8 +29,8 @@ if __name__=="__main__":
 
   ```
 
-## To run the file, execute the script league_builder.py and pass in the filename i.e 
-## python league_builder.py soccer_players.csv
+# To run the file, execute the script league_builder.py and pass in the filename i.e 
+# python league_builder.py soccer_players.csv
 
 
 
